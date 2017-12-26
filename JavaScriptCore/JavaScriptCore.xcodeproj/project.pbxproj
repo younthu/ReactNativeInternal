@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F914F261FC2D2CC00810422 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F914F251FC2D2CC00810422 /* AppDelegate.m */; };
+		4F914F291FC2D2CC00810422 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F914F281FC2D2CC00810422 /* ViewController.m */; };
+		4F914F2C1FC2D2CC00810422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F914F2A1FC2D2CC00810422 /* Main.storyboard */; };
+		4F914F2E1FC2D2CC00810422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F914F2D1FC2D2CC00810422 /* Assets.xcassets */; };
+		4F914F311FC2D2CC00810422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F914F2F1FC2D2CC00810422 /* LaunchScreen.storyboard */; };
+		4F914F341FC2D2CC00810422 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F914F331FC2D2CC00810422 /* main.m */; };
+		4F914F3E1FC2E23400810422 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F914F3D1FC2E23400810422 /* Person.m */; };
+		4F914F401FC2E4B000810422 /* mustache.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F914F3F1FC2E4AF00810422 /* mustache.js */; };
+		4F914F421FC30AF700810422 /* person.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F914F411FC30AF700810422 /* person.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F914F211FC2D2CC00810422 /* JavaScriptCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JavaScriptCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F914F241FC2D2CC00810422 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F914F251FC2D2CC00810422 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F914F271FC2D2CC00810422 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4F914F281FC2D2CC00810422 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4F914F2B1FC2D2CC00810422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F914F2D1FC2D2CC00810422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F914F301FC2D2CC00810422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F914F321FC2D2CC00810422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F914F331FC2D2CC00810422 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F914F3B1FC2D34C00810422 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		4F914F3C1FC2E23400810422 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		4F914F3D1FC2E23400810422 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		4F914F3F1FC2E4AF00810422 /* mustache.js */ = {isa = PBXFileReference; explicitFileType = compiled; fileEncoding = 4; path = mustache.js; sourceTree = "<group>"; };
+		4F914F411FC30AF700810422 /* person.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = person.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F914F1E1FC2D2CC00810422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F914F181FC2D2CC00810422 = {
+			isa = PBXGroup;
+			children = (
+				4F914F3F1FC2E4AF00810422 /* mustache.js */,
+				4F914F231FC2D2CC00810422 /* JavaScriptCore */,
+				4F914F221FC2D2CC00810422 /* Products */,
+				4F914F3A1FC2D34B00810422 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F914F221FC2D2CC00810422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F914F211FC2D2CC00810422 /* JavaScriptCore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F914F231FC2D2CC00810422 /* JavaScriptCore */ = {
+			isa = PBXGroup;
+			children = (
+				4F914F241FC2D2CC00810422 /* AppDelegate.h */,
+				4F914F251FC2D2CC00810422 /* AppDelegate.m */,
+				4F914F271FC2D2CC00810422 /* ViewController.h */,
+				4F914F281FC2D2CC00810422 /* ViewController.m */,
+				4F914F2A1FC2D2CC00810422 /* Main.storyboard */,
+				4F914F2D1FC2D2CC00810422 /* Assets.xcassets */,
+				4F914F2F1FC2D2CC00810422 /* LaunchScreen.storyboard */,
+				4F914F321FC2D2CC00810422 /* Info.plist */,
+				4F914F331FC2D2CC00810422 /* main.m */,
+				4F914F3C1FC2E23400810422 /* Person.h */,
+				4F914F3D1FC2E23400810422 /* Person.m */,
+				4F914F411FC30AF700810422 /* person.json */,
+			);
+			path = JavaScriptCore;
+			sourceTree = "<group>";
+		};
+		4F914F3A1FC2D34B00810422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F914F3B1FC2D34C00810422 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F914F201FC2D2CC00810422 /* JavaScriptCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F914F371FC2D2CC00810422 /* Build configuration list for PBXNativeTarget "JavaScriptCore" */;
+			buildPhases = (
+				4F914F1D1FC2D2CC00810422 /* Sources */,
+				4F914F1E1FC2D2CC00810422 /* Frameworks */,
+				4F914F1F1FC2D2CC00810422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JavaScriptCore;
+			productName = JavaScriptCore;
+			productReference = 4F914F211FC2D2CC00810422 /* JavaScriptCore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F914F191FC2D2CC00810422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ReactNativeInternal;
+				TargetAttributes = {
+					4F914F201FC2D2CC00810422 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4F914F1C1FC2D2CC00810422 /* Build configuration list for PBXProject "JavaScriptCore" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F914F181FC2D2CC00810422;
+			productRefGroup = 4F914F221FC2D2CC00810422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F914F201FC2D2CC00810422 /* JavaScriptCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F914F1F1FC2D2CC00810422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F914F401FC2E4B000810422 /* mustache.js in Resources */,
+				4F914F311FC2D2CC00810422 /* LaunchScreen.storyboard in Resources */,
+				4F914F2E1FC2D2CC00810422 /* Assets.xcassets in Resources */,
+				4F914F421FC30AF700810422 /* person.json in Resources */,
+				4F914F2C1FC2D2CC00810422 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F914F1D1FC2D2CC00810422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F914F291FC2D2CC00810422 /* ViewController.m in Sources */,
+				4F914F341FC2D2CC00810422 /* main.m in Sources */,
+				4F914F3E1FC2E23400810422 /* Person.m in Sources */,
+				4F914F261FC2D2CC00810422 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F914F2A1FC2D2CC00810422 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F914F2B1FC2D2CC00810422 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F914F2F1FC2D2CC00810422 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F914F301FC2D2CC00810422 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F914F351FC2D2CC00810422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F914F361FC2D2CC00810422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F914F381FC2D2CC00810422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXEHGC77U2;
+				INFOPLIST_FILE = JavaScriptCore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativeinternal.JavaScriptCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F914F391FC2D2CC00810422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HXEHGC77U2;
+				INFOPLIST_FILE = JavaScriptCore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativeinternal.JavaScriptCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F914F1C1FC2D2CC00810422 /* Build configuration list for PBXProject "JavaScriptCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F914F351FC2D2CC00810422 /* Debug */,
+				4F914F361FC2D2CC00810422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F914F371FC2D2CC00810422 /* Build configuration list for PBXNativeTarget "JavaScriptCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F914F381FC2D2CC00810422 /* Debug */,
+				4F914F391FC2D2CC00810422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F914F191FC2D2CC00810422 /* Project object */;
+}
